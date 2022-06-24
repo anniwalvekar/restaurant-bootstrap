@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6{
     color: #222;
 }
 a{
-    color: #222;
+    color: #444;
     text-decoration: none;
     transition: all 0.4s;
     font-weight: 600;
@@ -22,13 +22,14 @@ a:hover{
     color: #F58d17;
 }
 .nav-link{
-    color:#222;
+    color:#444;
     padding: 0 10px 0 10px
+    
 }
 .nav-link:hover{
     background-color: #F58d17;
     color: #fff;
-    border-radius: 30px;
+   
 }
 img{
     width: 100%; 
@@ -42,11 +43,12 @@ img{
     font-family:'Pacifico',sans-serif ;
     letter-spacing: 2px;
     font-size: 1.5rem;
+    color: #000;
 }
 /* Buttons */
 .btn{
     border-radius: 0;
-    padding: 14px 38px;
+    padding: 8px 28px;
 }
 .btn-brand{
     color: #fff;
@@ -101,7 +103,11 @@ section{
     width: 60px;
     height: 2px;
    display: block;
+   margin-left: 5rem;
    background-color: #F58d17;
+}
+.about-img{
+   width:90%;
 }
 /* menu-section */
 .intro-text{
@@ -111,7 +117,9 @@ section{
 .intro-text p{
     max-width:500px ;
     margin: 0 auto 0 auto;
+    font-weight: 100;
 }
+
 #menu .nav-pills .nav-link{
     background-color: #fff;
     margin:0 8px 0 8px ;
@@ -135,10 +143,10 @@ section{
 
 /* Features Section */
 #features{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../assets/cover/cover2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../assets/cover/cover1.jpg);
 }
 .feature{
-    border: 2px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255 , 255, 0.75);
 }
 .feature .feature-icon{
     width: 50px;
@@ -152,7 +160,7 @@ section{
 }
 /* team Section */
 .team-member img{
-    max-width: 140px;
+    max-width: 100px;
     box-shadow: -10px -10px #F58d17;
     border-radius: 100px;
 }
