@@ -9,41 +9,45 @@ body{
     line-height: 1.7;
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: 600;
-    color: #222;
+    font-weight: 700;
+    color: #333;
 }
 a{
     color: #444;
     text-decoration: none;
     transition: all 0.4s;
-    font-weight: 600;
+  
 }
 a:hover{
     color: #F58d17;
 }
+
+
 .nav-link{
     color:#444;
     padding: 0 10px 0 10px
+        
     
 }
 .nav-link:hover{
-    background-color: #F58d17;
-    color: #fff;
+   
+    color: #F58d17;
+    
    
 }
 img{
     width: 100%; 
 }
 .logo{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     
 }
 .logo-text{
     font-family:'Pacifico',sans-serif ;
     letter-spacing: 2px;
-    font-size: 1.5rem;
-    color: #000;
+    font-size: 1.2rem;
+    color: #222;
 }
 /* Buttons */
 .btn{
@@ -143,7 +147,7 @@ section{
 
 /* Features Section */
 #features{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../assets/cover/cover1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../assets/cover/cover4.jpg);
 }
 .feature{
     border: 2px solid rgba(255, 255 , 255, 0.75);
@@ -157,6 +161,10 @@ section{
     display: inline-grid;
     align-content: center;
     text-align: center;
+}
+.blog-text{
+    font-size: 10px;
+    margin-bottom: 5px;
 }
 /* team Section */
 .team-member img{
