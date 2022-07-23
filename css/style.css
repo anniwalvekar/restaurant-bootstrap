@@ -32,8 +32,14 @@ a:hover{
 .nav-link:hover{
    
     color: #F58d17;
-    
-   
+}
+.navbar .navbar-toggler{
+    border: 0;
+    line-height: 2;
+    color: #444;
+}
+.navbar .navbar-toggler{
+    box-shadow: none;
 }
 img{
     width: 100%; 
